@@ -8,10 +8,10 @@ package api.book.domain;
   Created Date : 2024/04/09 
   Description  : 
  */
-public class PercentDiscountPolicy extends DiscountPolicy{
+public class PercentDefalutDiscountPolicy extends DefalutDiscountPolicy {
   private final double percent;
 
-  public PercentDiscountPolicy(double percent, DiscountCondition... conditions) {
+  public PercentDefalutDiscountPolicy(double percent, DiscountCondition... conditions) {
     super(conditions);
     this.percent = percent;
   }

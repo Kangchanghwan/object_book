@@ -8,10 +8,10 @@ package api.book.domain;
   Created Date : 2024/04/09 
   Description  : 
  */
-public class AmountPolicy extends DiscountPolicy {
+public class AmountPolicyDefalut extends DefalutDiscountPolicy {
   private final Money discountAmount;
 
-  public AmountPolicy(Money discountAmount, DiscountCondition... conditions) {
+  public AmountPolicyDefalut(Money discountAmount, DiscountCondition... conditions) {
     super(conditions);
     this.discountAmount = discountAmount;
   }
