@@ -6,6 +6,7 @@ pluginManagement {
     }
 }
 rootProject.name = 'object_study'
-include 'practice01'
-include 'practice02'
-include 'practice03'
+include 'chapter01_theater'
+include 'chapter02_theater'
+include 'chapter04_movie'
+include 'chapter10_phone'
